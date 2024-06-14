@@ -21,11 +21,26 @@ The project demonstrates how PCA can effectively reduce the dimensionality of da
 #### PCA - VARIANCE
 ![pca visual1](https://github.com/adepel80/Principal-Component-Analysis-PCA-/assets/123180341/57fa297e-4871-4e34-9622-544507ccc6b9)
 
+
 ### Reduction from 64 Dimension to 2
 ![PCA 64 -2](https://github.com/adepel80/Principal-Component-Analysis-PCA-/assets/123180341/f56a9511-2b3b-47a7-9d7e-09d26e4cef61)
 
+``` pca = PCA(2) #Project from 64 to 2 dimensions
+pca.fit(digits.data)
+projected = pca.transform(digits.data)
+print(digits.data.shape)
+print(projected.shape)
+```
+
 ### Choosing the number of component
-![pca choosing nos of comp](https://github.com/adepel80/Principal-Component-Analysis-PCA-/assets/123180341/913ad39f-6d89-46a2-b91e-3b51d4764a16)
+![pca choosing nos of comp](https://github.com/adepel80/Principal-Component-Analysis-PCA-/assets/123180341/913ad39f-6d89-46a2-b91e-3b51d4764a16
+
+``` 
+pca=PCA().fit(digits.data)
+plt.plot(np.cumsum(pca.explained_variance_ratio_))
+plt.xlabel('number of components')
+plt.ylabel('cumulative explained variance');
+```
 
 
 
