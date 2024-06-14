@@ -10,7 +10,8 @@ This project demonstrates the application of Principal Component Analysis (PCA) 
 # Data
 The project utilizes several datasets to demonstrate the versatility of PCA. The datasets are stored in the data/ directory, with raw data in the data/raw subdirectory and processed data in the data/processed subdirectory.
 
-``` rng = np.random.RandomState(1)
+```
+rng = np.random.RandomState(1)
 X = np.dot(rng.rand(2,2), rng.randn(2,200)).T
 ```
 
