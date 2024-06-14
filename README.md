@@ -18,7 +18,9 @@ X = np.dot(rng.rand(2,2), rng.randn(2,200)).T
 ## Results
 The project demonstrates how PCA can effectively reduce the dimensionality of datasets, highlight underlying structures, and improve data visualization. Detailed performance metrics, variance explained by principal components, and visualizations are included in the reports/pca_report.pdf file.
 
-## IMPORT PCA, VARIANCE AND VISUAL
+#### IMPORT PCA, VARIANCE AND VISUAL
+![pca visual1](https://github.com/adepel80/Principal-Component-Analysis-PCA-/assets/123180341/57fa297e-4871-4e34-9622-544507ccc6b9)
+
 
 
 
