@@ -33,7 +33,7 @@ print(projected.shape)
 ```
 
 ### Choosing the number of component
-![pca choosing nos of comp](https://github.com/adepel80/Principal-Component-Analysis-PCA-/assets/123180341/913ad39f-6d89-46a2-b91e-3b51d4764a16
+![pca choosing nos of comp](https://github.com/adepel80/Principal-Component-Analysis-PCA-/assets/123180341/913ad39f-6d89-46a2-b91e-3b51d4764a16)
 
 ``` 
 pca=PCA().fit(digits.data)
